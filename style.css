@@ -1,0 +1,58 @@
+body {
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0IDQ0NDQ8IDQcNFREWFhURFRMYHSggGBoxGxMTITEhJSkrLi4uFx8zODMsNyg5LisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAcEAEBAQEBAAMBAAAAAAAAAAAAAQIRElFx8CH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8ZlVGUqpoFguqA5VxkqUG2b/ABpKxlVNA6JT5GUrXNBNyjy24mwGVhWNLE2Az1xFjSxFgM9ZQ1sRYCLCXU0E2JqqkACpdAzT05QA4cICsJRAYg6AOKSfQUZdAKTR0rAZSqlZqgNZVysurlBfRChguKlZxUBtmtM1zytc0G8qmeK0ArEXLWQWA59RFjfUZ2AxqNNdRlQRpNVU0EapHpICkLU2gY6QgLlEKU4AoMAkwAEMjgBUSAWk+kDLgMgVFdQqA0i4zzVSguwSlDoLlXmspVyg2zW0rnxWuKDoyNROasGdjLUbVjsGWmemu2WgZVOlJ0CKmqqaCNFTqaBwdIdBUqus1QF9NMVABGAKGAAAAAU5ACCUQEcoEBS8s1wFmUMDVmpIG2a1zpz5rTNB05009OaaX6Bpay1RdM9aAt1npVrO0E1OlUrAZ1NacTYDOxNjXiLkEBViQBwFAWZQ5QVAIAAAgA4OKAuFVJBJGQAQjgKVELgLhyphgfQRgapWfR0G80r255T9A29pumfougq1I6AAsMuAXC41zD8gxuSuG/geActym5dNwi5/fIMODjS5LgI4o+EBwCABFQpFAAAAI4fAYkAAURgaoUUCoZQAC6KVAdLqaVoK9HNM+nKDSU5WZyg06cTFSAcXIWYvIHnK5kSLkBMyLlpwXIMbhnrDo1E2A5tZZ3Lp1GdyDGwvLSwrARyDh2DgAA5AIzAAgVoMRBDgGZHAVIcBwDI+FQKptO1FAWotO1AH05UqgLispisguLRFwFxrmM8tMguKymGC4Eyi0BSPpAixnY0TYDOxFjWosBmDAEYIBQCoCppptBnFSFIoArMKK4AkVChgKm0VNoDSKdqKBUgIAXEyLkBSswpFwDi8paSArKspis0Fw+pALCejoKKl0gBU02gSaqpoI0SqmgCMWAlNUmgVSdSByCHIcgCRUKKAQUJ6ARadqbQK1FOpAHBIqAJFyCRcgCRUEiswDzFwjAwZAqU0xXAPoAADoSB2pp9KAVI6QJJQ4CBVWJsAkVdRQQntVS4DSHIMmAFHU2gLU2mjoDqbRSAqD4cgCRcyJFyAJlchcXMgJFcEOQAfDgAjkORXAHAchgk1ECSqqmgkAAVIUAUA4ABVRUEJrSxNgM+BYsBI6YBNqbQAK1FpgEiGAORUgALkXIAC5IYAGoABIqQAFQ4AA6OgAB0ACtTQARR0ACtLoAGJwwAAAFSoACT6PgAP/9k=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border:1px solid aqua;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+  }
+
+  #counter {
+    font-size: 4em;
+    color: aqua; /* Set the counter number to black */
+    margin: 20px 0;
+    transition: color 0.3s ease;
+  }
+  #resetButton:hover {
+    transform: scale(1.05);
+  }
+  button {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    width: 120px;
+  }
+
+  #incrementButton:hover {
+    transform: scale(1.05);
+  }
+
+  #decrementButton:hover {
+    transform: scale(1.05);
+    background-color: white;
+  }
+
+  button:active {
+    transform: scale(0.98);
+    
+  }
+  button{
+      background-color: rgb(224, 219, 219);
+  }
